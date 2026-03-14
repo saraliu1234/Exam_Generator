@@ -1,0 +1,37 @@
+[
+{
+"id": "calc_001",
+"course": "MAT137",
+"topic": "improper_integral",
+"type": "conceptual",
+"difficulty": "medium",
+
+"question": "Determine whether the following improper integral converges: $$\\int_1^\\infty \\frac{1}{x^p} dx$$",
+
+"answer": "The integral converges if $$p>1$$ and diverges if $$p\\le1$$."
+},
+
+{
+"id": "phys_001",
+"course": "PHY152",
+"topic": "electric_field",
+"type": "calculation",
+"difficulty": "medium",
+
+"question": "Find the electric field at distance $$r$$ from an infinite line charge with density $$\\lambda$$.",
+
+"answer": "$$E = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$$"
+},
+
+{
+"id": "phys_002",
+"course": "PHY152",
+"topic": "gauss_law",
+"type": "derivation",
+"difficulty": "hard",
+
+"question": "Use Gauss's law to determine the electric field inside a uniformly charged sphere.",
+
+"answer": "$$E(r) = \\frac{\\rho r}{3\\epsilon_0}$$"
+}
+]

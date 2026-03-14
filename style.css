@@ -1,0 +1,73 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+}
+
+header {
+
+    background: #1e2a38;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+
+    padding: 30px;
+}
+
+.input-section {
+
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.result-section {
+
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.practice-section {
+
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+button {
+
+    padding: 10px 18px;
+    font-size: 16px;
+    background: #3a7bd5;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background: #2c5ea6;
+}
+
+#practiceBox {
+
+    background: white;
+
+    margin: 20px;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ddd;
+
+    min-height: 120px;
+
+    font-size: 18px;
+}

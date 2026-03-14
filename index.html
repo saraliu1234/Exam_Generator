@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam Predictor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>📊 Exam Predictor</h1>
+    <p>Predict exam structure based on course topics and past trends</p>
+</header>
+
+
+<section class="input-section">
+
+<h2>Select Course</h2>
+
+<select id="course">
+    <option value="PHY152">PHY152 – Foundations of Physics II</option>
+    <option value="MAT137">MAT137 – Calculus</option>
+    <option value="CSC263">CSC148 – Computer Programming</option>
+</select>
+
+<h2>Exam Type</h2>
+
+<select id="examType">
+    <option value="midterm">Midterm</option>
+    <option value="final">Final</option>
+</select>
+
+<button onclick="generatePractice()">Create Practice Questions</button>
+
+</section>
+
+<section class="practice-section">
+
+<h2>Generated Problem</h2>
+
+<div id="practiceBox"></div>
+
+</section>
+</section>
+
+<footer>
+<p>Generated predictions are estimates based on topic patterns.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
